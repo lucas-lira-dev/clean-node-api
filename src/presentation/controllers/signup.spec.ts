@@ -1,6 +1,10 @@
 import { SignUpController } from './signup'
 import { MissingParamError, InvalidParamError, ServerError } from '../errors'
+<<<<<<< Updated upstream
 import { EmailValidator } from '../protocols/email-validator'
+=======
+import { EmailValidator } from '../protocols'
+>>>>>>> Stashed changes
 
 interface SutTypes {
   sut: SignUpController
